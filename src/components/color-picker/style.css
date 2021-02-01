@@ -1,0 +1,44 @@
+.color_picker{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 600px;
+    margin : 24px auto 16px auto;
+}
+
+.color_picker__percentage{
+    max-width: 50px;
+    border-radius: 4px;
+}
+
+.color_picker__percentage:focus{
+    border: 3px solid #555;
+}
+
+.color_picker__color_selector{
+    border: none;
+    cursor: pointer;
+}
+
+.color_picker__color_selector:focus{
+    outline: none;
+}
+
+.color_picker__text{
+    outline: none;
+    border-radius: 4px;
+}
+
+.color_picker__text:focus {
+    border: 3px solid #555;
+}
+
+.color_picker__reset{
+    border: none;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.color_picker__reset:focus{
+    outline: none;
+}
